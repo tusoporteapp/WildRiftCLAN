@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css?h=d57eb9d0cd5ee3b41ce98f16b9eaca3e">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome5-overrides.min.css?h=c1c8b08f8e093bbf2ff10464a2cce6e7">
     <link rel="stylesheet" href="../assets/css/styles.min.css?h=10a3e96934d90b3050aae5bb5f925df3">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -140,7 +142,73 @@
             </div>
         </div>
     </section>
-    <hr>
+    <div class="d-flex justify-content-center align-items-center"><a class="btn btn-primary btn-sm" role="button" data-toggle="modal" href="#myModal" style="border-style: none;background: rgb(0,0,0);">Datos de la Aplicación</a>
+        <div class="modal fade" role="dialog" tabindex="-1" id="myModal" style="background: #000000;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body" style="background: #000000;">
+                        <section class="wrapper-numbers" style="background: #000000;">
+                            <div class="container">
+                                <div class="row countup text-center">
+                                    <div class="col-md-8 offset-md-2 header-numbers">
+                                        <h1 style="color: rgb(255,255,255);"><strong>Datos del App</strong></h1>
+                                        <p style="color: rgb(255,255,255);">Somos una comunidad en crecimiento.</p>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-user-follow" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">10</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Usuarios registrados<br></h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-film" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">1</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Videos <br>Subidos</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-badge" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">0</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Evendos Realizados</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-present" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">0</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Premios Entregados</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-shield" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">0</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Clanes <br>Creados</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-game-controller" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">0</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Torneos <br>Hechos</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-social-youtube" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">0</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Youtubes<br>Cuentas</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-bulb" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">15</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">ideas <br>Revisadas</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p><i class="icon-speech" aria-hidden="true" style="font-size: 30px;"></i></p>
+                                        <p> <span class="count" style="font-size: 24px;">20</span></p>
+                                        <h2 style="font-size: 10px;">Chats <br>Enviados</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center align-items-center" style="height: 0px;background: #000000;border-style: none;"><button class="btn btn-light" data-dismiss="modal" type="button" style="background: rgb(0,0,0);border-style: none;color: rgb(255,255,255);">Cerrar</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="height: 89px;color: rgb(255,255,255);border-style: none;">
     <nav class="navbar navbar-light navbar-expand fixed-bottom navigation-clean-button" style="height: 48px;color: #ffffff;background: #000000;">
         <div class="container-fluid"><a class="navbar-brand" href="go:estados" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fas fa-plus-circle tada animated infinite" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="http://action_share" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fab fa-slideshare" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="http://action_notifications" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fas fa-exclamation-circle" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="go:comentario" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fab fa-facebook-messenger" style="width: auto;height: auto;"></i></a>
             <div class="dropup no-arrow"><a aria-expanded="false" data-toggle="dropdown" href="#" style="font-size: 20px;"><i class="fas fa-bars text-gray-400" data-bss-hover-animate="swing"></i></a>
