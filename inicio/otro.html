@@ -158,17 +158,6 @@
         <input type="submit" value="Ingresar" onclick="validarClave()">
     </form>
 
-    <section>
-        <div style="display: none;">
-            <video class="sr-only invisible" width="560" height="315" autoplay=""
-                style="width: 50px;height: 50px;text-align: center;" preload="auto" controls="" loop="">
-                <source
-                    src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/Sin%20ti%CC%81tulo%202.m4v"
-                    type="audio/ogg">
-            </video>
-        </div>
-    </section>
-
     <script>
 
         (function () {
@@ -178,7 +167,7 @@
                 e.preventDefault();
                 const claveIntroducida = document.getElementById("passkey").value;
                 if (claveIntroducida == '1234') {
-                    document.getElementById("requiredCliente").style.display = "none";
+                    document.getElementById("message").style.display = "none";
                     window.location.href = "http://tusoporteapp.github.io/WildRiftCLAN/inicio/campeones.html";
 
                 } else {
