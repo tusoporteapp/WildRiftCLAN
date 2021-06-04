@@ -1,2 +1,0 @@
-# WildRiftCLAN
-Aplicacion WEB
