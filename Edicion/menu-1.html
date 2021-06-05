@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>WildriftCLAN</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css?h=0b4f884fc8ea1e3db18e7156f2b27d64">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows+Into+Light">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome5-overrides.min.css?h=c1c8b08f8e093bbf2ff10464a2cce6e7">
+    <link rel="stylesheet" href="../assets/css/styles.min.css?h=aa4cdb81db94423ad0f235f220977a64">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCbaNREG_ZyHFgsw-TaJ_HDiKxsCRw7mok",
+    authDomain: "wrclan-1622209326065.firebaseapp.com",
+    projectId: "wrclan-1622209326065",
+    storageBucket: "wrclan-1622209326065.appspot.com",
+    messagingSenderId: "261041173830",
+    appId: "1:261041173830:web:78a2383bfd335dcebda147",
+    measurementId: "G-XPH5049M85"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
+</head>
+
+<body style="background: rgb(255,255,255);border-color: rgb(255,255,255);">
+    <div>
+        <nav class="navbar navbar-light navbar-expand fixed-top navigation-clean-button" style="height: 48px;color: #ffffff;background: #000000;">
+            <div class="container-fluid"><a class="navbar-brand pulse animated infinite" href="#" style="color: rgb(255,255,255);">WildRift CLAN</a>
+                <div class="dropdown no-arrow"><a class="dropdown-toggle" aria-expanded="false" data-toggle="dropdown" href="#"><i class="material-icons text-gray-400" style="color: rgb(255,255,255);border-style: none;transform-style: preserve-3d;">folder_special</i></a>
+                    <div class="dropdown-menu shadow dropdown-menu-right animated--fade-in">
+                        <p class="text-right dropdown-header" style="color: rgb(0,0,0);">submenu</p><a class="dropdown-item text-right d-flex justify-content-end align-items-center" href="go:premium" style="color: rgb(0,0,0);"><strong>CONTENIDO PREMIUM&nbsp;&nbsp;</strong><i class="material-icons tada animated infinite" style="color: rgb(210,176,0);">local_activity</i>&nbsp;</a><a class="dropdown-item text-right d-flex justify-content-end align-items-center" href="go:donaciones" style="color: rgb(0,0,0);"><strong>DONACIONES&nbsp;&nbsp;</strong><i class="material-icons swing animated infinite" style="font-size: 20px;color: rgb(0,210,34);">attach_money</i>&nbsp;</a><a class="dropdown-item text-right d-flex justify-content-end align-items-center" href="go:stikers" style="color: rgb(0,0,0);"><strong>STIKERS&nbsp;&nbsp;</strong><i class="material-icons swing animated infinite" style="font-size: 20px;color: var(--danger);">insert_emoticon</i>&nbsp;</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-right d-flex justify-content-end align-items-center" href="http://action_exit" style="color: rgb(0,0,0);"><strong>SALIR DEL APP&nbsp;&nbsp;</strong><i class="material-icons pulse animated" style="font-size: 20px;color: rgb(0,0,0);">exit_to_app</i>&nbsp;</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <hr style="background: #ffffff;color: rgb(255,255,255);border-style: none;border-color: rgb(255,255,255);height: 13px;">
+    <section data-aos="fade-down" class="highlight-clean" style="background: url(&quot;https://raw.githubusercontent.com/tusoporteapp/WildRiftCLAN/master/contenido/Sin%20t%C3%ADtulo.001.webp&quot;) center / cover space;">
+        <div class="container">
+            <div class="intro">
+                <p class="text-center" style="color: rgb(255,255,255);font-size: 30px;"><strong>¿Sabias que?</strong><br></p>
+                <p class="text-center" style="color: rgb(255,255,255);">!Puedes ganar <strong>SKINS</strong>, subiendo tus g<strong>ameplays</strong>, haciendo <strong>DUO</strong>, ganando <strong>estrellas</strong>, teniendo vistas y compartiendo la comunidad! en <strong>boton</strong><br><i class="fab fa-slideshare swing animated infinite" style="width: auto;height: auto;"></i></p>
+            </div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="go:duo">duo</a><a class="btn btn-light" role="button" href="go:videos" style="background: rgb(255,214,0);color: rgb(0,0,0);">subir video</a></div>
+            <div class="buttons" style="height: 1px;"><a class="btn btn-light flash animated infinite" role="button" href="go:version" style="background: rgba(0,0,0,0);color: rgb(255,255,255);font-size: 8px;border-style: none;">ver nota de version 2.3 wildrift</a></div>
+        </div>
+    </section>
+    <section class="d-flex align-items-center card-section-imagia" style="border-style: none;background: rgba(241,241,241,0);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 125px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 82px;border-style: none;">
+                                    <div class="carousel slide" data-ride="carousel" id="carousel-1" style="border-style: none;">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blta77d1caab1035c1c/60b176a447ebc9669e1e9143/WR_BrokenBlades_EventArticle_Banner.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt2c20f6a656a28c6a/60af2fa08036a35e785fcb19/Riven_Splash.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt87474ffd8bf7b7ba/60af2fa0eab8ca74ace876b5/Irelia_Splash.jpg" alt="Slide Image"></div>
+                                        </div>
+                                        <div class="sr-only"><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+                                        <ol class="carousel-indicators sr-only">
+                                            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel-1" data-slide-to="1"></li>
+                                            <li data-target="#carousel-1" data-slide-to="2"></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="content-imagia" style="height: 71px;background: rgba(0,0,0,0);">
+                                    <h3 class="name-imagia" style="color: rgb(255,255,255);font-size: 15px;"><strong>LO NUEVO</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 125px;">
+                                <div class="d-flex d-sm-flex align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia">
+                                    <p class="text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;">Aquí publicaremos todo lo nuevo que sale en <strong>WildRift</strong> / <strong>Videos /</strong>&nbsp;<strong>Noticias / Eventos</strong></p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 40px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:lonuevo">Ver&nbsp;</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 125px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 82px;border-style: none;">
+                                    <div class="carousel slide" data-ride="carousel" id="carousel-1" style="border-style: none;">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blta77d1caab1035c1c/60b176a447ebc9669e1e9143/WR_BrokenBlades_EventArticle_Banner.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt2c20f6a656a28c6a/60af2fa08036a35e785fcb19/Riven_Splash.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt87474ffd8bf7b7ba/60af2fa0eab8ca74ace876b5/Irelia_Splash.jpg" alt="Slide Image"></div>
+                                        </div>
+                                        <div class="sr-only"><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+                                        <ol class="carousel-indicators sr-only">
+                                            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel-1" data-slide-to="1"></li>
+                                            <li data-target="#carousel-1" data-slide-to="2"></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="content-imagia" style="height: 71px;background: rgba(0,0,0,0);">
+                                    <h3 class="name-imagia" style="color: rgb(255,255,255);font-size: 15px;"><strong>CAMPEONES</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 125px;">
+                                <div class="d-flex d-sm-flex align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia">
+                                    <p class="text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;">Aquí podrás ver todos los <strong>campeones</strong> nuevos de <strong>WildRift</strong> y <strong>PC</strong>.</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 40px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:lonuevo">Ver&nbsp;</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 125px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 82px;border-style: none;">
+                                    <div class="carousel slide" data-ride="carousel" id="carousel-2" style="border-style: none;">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blta77d1caab1035c1c/60b176a447ebc9669e1e9143/WR_BrokenBlades_EventArticle_Banner.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt2c20f6a656a28c6a/60af2fa08036a35e785fcb19/Riven_Splash.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt87474ffd8bf7b7ba/60af2fa0eab8ca74ace876b5/Irelia_Splash.jpg" alt="Slide Image"></div>
+                                        </div>
+                                        <div class="sr-only"><a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+                                        <ol class="carousel-indicators sr-only">
+                                            <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel-2" data-slide-to="1"></li>
+                                            <li data-target="#carousel-2" data-slide-to="2"></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="content-imagia" style="height: 71px;background: rgba(0,0,0,0);">
+                                    <h3 class="name-imagia" style="color: rgb(255,255,255);font-size: 15px;"><strong>CAMPEONES</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 125px;">
+                                <div class="d-flex d-sm-flex align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia">
+                                    <p class="text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;">Aquí podrás <strong>conocer</strong> todo el <strong>universo</strong> de <strong>League Of Legends</strong>.</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 40px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:lonuevo">Conocer&nbsp;</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 125px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 82px;border-style: none;">
+                                    <div class="carousel slide" data-ride="carousel" id="carousel-2" style="border-style: none;">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blta77d1caab1035c1c/60b176a447ebc9669e1e9143/WR_BrokenBlades_EventArticle_Banner.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt2c20f6a656a28c6a/60af2fa08036a35e785fcb19/Riven_Splash.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt87474ffd8bf7b7ba/60af2fa0eab8ca74ace876b5/Irelia_Splash.jpg" alt="Slide Image"></div>
+                                        </div>
+                                        <div class="sr-only"><a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+                                        <ol class="carousel-indicators sr-only">
+                                            <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel-2" data-slide-to="1"></li>
+                                            <li data-target="#carousel-2" data-slide-to="2"></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="content-imagia" style="height: 71px;background: rgba(0,0,0,0);">
+                                    <h3 class="name-imagia" style="color: rgb(255,255,255);font-size: 15px;"><strong>CAMPEONES</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 125px;">
+                                <div class="d-flex d-sm-flex align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia">
+                                    <p class="text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;">Aquí podrás <strong>conocer</strong> todo el <strong>universo</strong> de <strong>League Of Legends</strong>.</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 40px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:lonuevo">Conocer&nbsp;</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 125px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 82px;border-style: none;">
+                                    <div class="carousel slide" data-ride="carousel" id="carousel-8" style="border-style: none;">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blta77d1caab1035c1c/60b176a447ebc9669e1e9143/WR_BrokenBlades_EventArticle_Banner.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt2c20f6a656a28c6a/60af2fa08036a35e785fcb19/Riven_Splash.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt87474ffd8bf7b7ba/60af2fa0eab8ca74ace876b5/Irelia_Splash.jpg" alt="Slide Image"></div>
+                                        </div>
+                                        <div class="sr-only"><a class="carousel-control-prev" href="#carousel-8" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-8" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+                                        <ol class="carousel-indicators sr-only">
+                                            <li data-target="#carousel-8" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel-8" data-slide-to="1"></li>
+                                            <li data-target="#carousel-8" data-slide-to="2"></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="content-imagia" style="height: 71px;background: rgba(0,0,0,0);">
+                                    <h3 class="name-imagia" style="color: rgb(255,255,255);font-size: 15px;"><strong>CAMPEONES</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 125px;">
+                                <div class="d-flex d-sm-flex align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia">
+                                    <p class="text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;">Aquí podrás <strong>conocer</strong> todo el <strong>universo</strong> de <strong>League Of Legends</strong>.</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 40px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:lonuevo">Conocer&nbsp;</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 125px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 82px;border-style: none;">
+                                    <div class="carousel slide" data-ride="carousel" id="carousel-7" style="border-style: none;">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blta77d1caab1035c1c/60b176a447ebc9669e1e9143/WR_BrokenBlades_EventArticle_Banner.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt2c20f6a656a28c6a/60af2fa08036a35e785fcb19/Riven_Splash.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt87474ffd8bf7b7ba/60af2fa0eab8ca74ace876b5/Irelia_Splash.jpg" alt="Slide Image"></div>
+                                        </div>
+                                        <div class="sr-only"><a class="carousel-control-prev" href="#carousel-7" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-7" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+                                        <ol class="carousel-indicators sr-only">
+                                            <li data-target="#carousel-7" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel-7" data-slide-to="1"></li>
+                                            <li data-target="#carousel-7" data-slide-to="2"></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="content-imagia" style="height: 71px;background: rgba(0,0,0,0);">
+                                    <h3 class="name-imagia" style="color: rgb(255,255,255);font-size: 15px;"><strong>CAMPEONES</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 125px;">
+                                <div class="d-flex d-sm-flex align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia">
+                                    <p class="text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;">Aquí podrás <strong>conocer</strong> todo el <strong>universo</strong> de <strong>League Of Legends</strong>.</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 40px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:lonuevo">Conocer&nbsp;</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 125px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 82px;border-style: none;">
+                                    <div class="carousel slide" data-ride="carousel" id="carousel-6" style="border-style: none;">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blta77d1caab1035c1c/60b176a447ebc9669e1e9143/WR_BrokenBlades_EventArticle_Banner.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt2c20f6a656a28c6a/60af2fa08036a35e785fcb19/Riven_Splash.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt87474ffd8bf7b7ba/60af2fa0eab8ca74ace876b5/Irelia_Splash.jpg" alt="Slide Image"></div>
+                                        </div>
+                                        <div class="sr-only"><a class="carousel-control-prev" href="#carousel-6" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-6" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+                                        <ol class="carousel-indicators sr-only">
+                                            <li data-target="#carousel-6" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel-6" data-slide-to="1"></li>
+                                            <li data-target="#carousel-6" data-slide-to="2"></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="content-imagia" style="height: 71px;background: rgba(0,0,0,0);">
+                                    <h3 class="name-imagia" style="color: rgb(255,255,255);font-size: 15px;"><strong>CAMPEONES</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 125px;">
+                                <div class="d-flex d-sm-flex align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia">
+                                    <p class="text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;">Aquí podrás <strong>conocer</strong> todo el <strong>universo</strong> de <strong>League Of Legends</strong>.</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 40px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:lonuevo">Conocer&nbsp;</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 125px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 82px;border-style: none;">
+                                    <div class="carousel slide" data-ride="carousel" id="carousel-5" style="border-style: none;">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blta77d1caab1035c1c/60b176a447ebc9669e1e9143/WR_BrokenBlades_EventArticle_Banner.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt2c20f6a656a28c6a/60af2fa08036a35e785fcb19/Riven_Splash.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt87474ffd8bf7b7ba/60af2fa0eab8ca74ace876b5/Irelia_Splash.jpg" alt="Slide Image"></div>
+                                        </div>
+                                        <div class="sr-only"><a class="carousel-control-prev" href="#carousel-5" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-5" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+                                        <ol class="carousel-indicators sr-only">
+                                            <li data-target="#carousel-5" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel-5" data-slide-to="1"></li>
+                                            <li data-target="#carousel-5" data-slide-to="2"></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="content-imagia" style="height: 71px;background: rgba(0,0,0,0);">
+                                    <h3 class="name-imagia" style="color: rgb(255,255,255);font-size: 15px;"><strong>CAMPEONES</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 125px;">
+                                <div class="d-flex d-sm-flex align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia">
+                                    <p class="text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;">Aquí podrás <strong>conocer</strong> todo el <strong>universo</strong> de <strong>League Of Legends</strong>.</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 40px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:lonuevo">Conocer&nbsp;</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 125px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 82px;border-style: none;">
+                                    <div class="carousel slide" data-ride="carousel" id="carousel-4" style="border-style: none;">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blta77d1caab1035c1c/60b176a447ebc9669e1e9143/WR_BrokenBlades_EventArticle_Banner.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt2c20f6a656a28c6a/60af2fa08036a35e785fcb19/Riven_Splash.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt87474ffd8bf7b7ba/60af2fa0eab8ca74ace876b5/Irelia_Splash.jpg" alt="Slide Image"></div>
+                                        </div>
+                                        <div class="sr-only"><a class="carousel-control-prev" href="#carousel-4" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-4" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+                                        <ol class="carousel-indicators sr-only">
+                                            <li data-target="#carousel-4" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel-4" data-slide-to="1"></li>
+                                            <li data-target="#carousel-4" data-slide-to="2"></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="content-imagia" style="height: 71px;background: rgba(0,0,0,0);">
+                                    <h3 class="name-imagia" style="color: rgb(255,255,255);font-size: 15px;"><strong>CAMPEONES</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 125px;">
+                                <div class="d-flex d-sm-flex align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia">
+                                    <p class="text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;">Aquí podrás <strong>conocer</strong> todo el <strong>universo</strong> de <strong>League Of Legends</strong>.</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 40px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:lonuevo">Conocer&nbsp;</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 125px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 82px;border-style: none;">
+                                    <div class="carousel slide" data-ride="carousel" id="carousel-3" style="border-style: none;">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blta77d1caab1035c1c/60b176a447ebc9669e1e9143/WR_BrokenBlades_EventArticle_Banner.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt2c20f6a656a28c6a/60af2fa08036a35e785fcb19/Riven_Splash.jpg" alt="Slide Image"></div>
+                                            <div class="carousel-item"><img class="w-100 d-block" src="https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt87474ffd8bf7b7ba/60af2fa0eab8ca74ace876b5/Irelia_Splash.jpg" alt="Slide Image"></div>
+                                        </div>
+                                        <div class="sr-only"><a class="carousel-control-prev" href="#carousel-3" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-3" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+                                        <ol class="carousel-indicators sr-only">
+                                            <li data-target="#carousel-3" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel-3" data-slide-to="1"></li>
+                                            <li data-target="#carousel-3" data-slide-to="2"></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="content-imagia" style="height: 71px;background: rgba(0,0,0,0);">
+                                    <h3 class="name-imagia" style="color: rgb(255,255,255);font-size: 15px;"><strong>CAMPEONES</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 125px;">
+                                <div class="d-flex d-sm-flex align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia">
+                                    <p class="text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;">Aquí podrás <strong>conocer</strong> todo el <strong>universo</strong> de <strong>League Of Legends</strong>.</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 40px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:lonuevo">Conocer&nbsp;</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="d-flex justify-content-center align-items-center"><a class="btn btn-primary btn-sm" role="button" data-toggle="modal" href="#myModal" style="border-style: none;background: rgba(0,0,0,0);color: rgb(0,0,0);"><strong>Datos de la Aplicación</strong></a>
+        <div class="modal fade" role="dialog" tabindex="-1" id="myModal" style="background: #000000;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body" style="background: #000000;">
+                        <section class="wrapper-numbers" style="background: #000000;">
+                            <div class="container">
+                                <div class="row countup text-center">
+                                    <div class="col-md-8 offset-md-2 header-numbers">
+                                        <h1 style="color: rgb(255,255,255);"><strong>Datos del App</strong></h1>
+                                        <p style="color: rgb(255,255,255);">Somos una comunidad en crecimiento.</p>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-user-follow" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">10</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Usuarios registrados<br></h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-film" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">1</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Videos <br>Subidos</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-badge" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">0</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Evendos Realizados</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-present" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">0</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Premios Entregados</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-shield" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">0</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Clanes <br>Creados</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-game-controller" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">0</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Torneos <br>Hechos</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-social-youtube" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">0</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">Youtubes<br>Cuentas</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p style="color: rgb(255,255,255);"><i class="icon-bulb" aria-hidden="true" style="color: rgb(255,255,255);font-size: 30px;"></i></p>
+                                        <p style="color: rgb(255,255,255);"> <span class="count" style="font-size: 24px;color: rgb(255,255,255);">15</span></p>
+                                        <h2 style="font-size: 10px;color: rgb(255,255,255);">ideas <br>Revisadas</h2>
+                                    </div>
+                                    <div class="col-4 col-sm-6 col-md-3 column" style="color: rgb(255,255,255);">
+                                        <p><i class="icon-speech" aria-hidden="true" style="font-size: 30px;"></i></p>
+                                        <p> <span class="count" style="font-size: 24px;">20</span></p>
+                                        <h2 style="font-size: 10px;">Chats <br>Enviados</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center align-items-center" style="height: 0px;background: #000000;border-style: none;"><button class="btn btn-light" data-dismiss="modal" type="button" style="background: rgb(0,0,0);border-style: none;color: rgb(255,255,255);">Cerrar</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="height: 29px;color: rgb(255,255,255);border-style: none;">
+    <nav class="navbar navbar-light navbar-expand fixed-bottom navigation-clean-button" style="height: 48px;color: #ffffff;background: #000000;">
+        <div class="container-fluid"><a class="navbar-brand" href="go:estados" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fas fa-plus-circle tada animated infinite" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="http://action_share" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fab fa-slideshare" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="http://action_notifications" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fas fa-exclamation-circle" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="go:comentario" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fab fa-facebook-messenger" style="width: auto;height: auto;"></i></a>
+            <div class="dropup no-arrow"><a aria-expanded="false" data-toggle="dropdown" href="#" style="font-size: 20px;"><i class="fas fa-bars text-gray-400" data-bss-hover-animate="swing"></i></a>
+                <div class="dropdown-menu shadow dropdown-menu-right animated--fade-in" style="margin: 21px;padding: 6px 0px;height: auto;width: auto;text-align: right;transform: translate(26px);">
+                    <p class="text-right dropdown-header" style="text-align: right;">Menu</p><a class="dropdown-item" href="http://action_profile" style="font-size: 16px;text-align: right;">Mi Perfil&nbsp;&nbsp;<i class="fas fa-user-cog pulse animated infinite"></i></a><a class="dropdown-item" href="go:chat" style="font-size: 16px;text-align: right;">ChatGlobal&nbsp;&nbsp;<i class="fas fa-comment-dots pulse animated infinite"></i></a>
+                    <div class="dropdown-divider"></div><a class="dropdown-item" href="http://action_offices" style="font-size: 16px;text-align: right;">Escribir al Programador&nbsp;&nbsp;<i class="far fa-envelope pulse animated infinite"></i></a>
+                    <div class="dropdown-divider"></div><a class="dropdown-item" href="go:toxicos" style="font-size: 16px;text-align: right;">Reportar Toxico&nbsp;&nbsp;<i class="fas fa-book-dead pulse animated infinite"></i></a>
+                    <div class="dropdown-divider"></div>
+                </div>
+            </div><button class="navbar-toggler" data-toggle="collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        </div>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/smart-forms.min.js?h=c1c8b08f8e093bbf2ff10464a2cce6e7"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="../assets/js/script.min.js?h=c8a2f72270fe90406927340776bad2ad"></script>
+</body>
+
+</html>
