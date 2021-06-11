@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>WildriftCLAN</title>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css?h=23992be98c5dbe034a3b5df6e722533d">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows+Into+Light">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="../../assets/fonts/fontawesome5-overrides.min.css?h=c1c8b08f8e093bbf2ff10464a2cce6e7">
+    <link rel="stylesheet" href="../../assets/css/styles.min.css?h=6a36070102ebb5c33f446e3c03cad2e2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCW_J_QSRPr1j3LMvCqdYd7Sb8WbC17qgM",
+    authDomain: "wrclanapp.firebaseapp.com",
+    projectId: "wrclanapp",
+    storageBucket: "wrclanapp.appspot.com",
+    messagingSenderId: "363552424815",
+    appId: "1:363552424815:web:5d6fdbe02411627f2c5e9a",
+    measurementId: "G-LDMNGZ5M9E"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
+</head>
+
+<body style="font-family: 'Friz Quadrata Std';">
+    <div>
+        <nav class="navbar navbar-light navbar-expand fixed-top navigation-clean-button" style="height: 48px;color: #ffffff;background: #000000;">
+            <div class="container-fluid"><a class="navbar-brand" href="go:campeones" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="material-icons" style="width: auto;height: auto;">arrow_back</i></a><a class="navbar-brand pulse animated infinite" href="#" style="color: rgb(255,255,255);">MIDLINE</a>
+                <div class="dropdown no-arrow"><a class="dropdown-toggle" aria-expanded="false" data-toggle="dropdown" href="#"><i class="material-icons text-gray-400" style="color: rgb(255,255,255);border-style: none;transform-style: preserve-3d;">folder_special</i></a>
+                    <div class="dropdown-menu shadow dropdown-menu-right animated--fade-in">
+                        <p class="text-right dropdown-header">submenu</p><a class="dropdown-item text-right d-flex justify-content-end align-items-center" href="go:premium"><strong>CONTENIDO PREMIUM&nbsp;&nbsp;</strong><i class="material-icons tada animated infinite" style="color: rgb(210,176,0);">local_activity</i>&nbsp;</a><a class="dropdown-item text-right d-flex justify-content-end align-items-center" href="go:donaciones"><strong>DONACIONES&nbsp;&nbsp;</strong><i class="material-icons swing animated infinite" style="font-size: 20px;color: rgb(0,210,34);">attach_money</i>&nbsp;</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-right d-flex justify-content-end align-items-center" href="http://action_exit"><strong>SALIR DEL APP&nbsp;&nbsp;</strong><i class="material-icons pulse animated" style="font-size: 20px;color: rgb(0,0,0);">exit_to_app</i>&nbsp;</a>
+                    </div>
+                </div><button class="navbar-toggler" data-toggle="collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            </div>
+        </nav>
+    </div>
+    <section class="d-flex align-items-center card-section-imagia" style="border-style: none;background: rgba(241,241,241,0);padding-bottom: 0px;padding-top: 56px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1259276b6d1efa78/5db05fa86e8b0c6d038c5ca2/RiotX_ChampionList_ahri.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 100%), var(--danger);border-style: none;"></header>
+                                <div class="d-flex justify-content-center align-items-center content-imagia" style="height: 41px;background: rgba(0,0,0,0);">
+                                    <h3 class="text-uppercase d-flex name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 16px;"><strong>ahri</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: Mago<br>Dificultad: Moderada<br>Linea: mid</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="items/ahri.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt80ff58fe809777ff/5db05fa8adc8656c7d24e7d6/RiotX_ChampionList_akali.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 100%), var(--danger);border-style: none;"></header>
+                                <div class="d-flex justify-content-center align-items-center content-imagia" style="height: 41px;background: rgba(0,0,0,0);">
+                                    <h3 class="text-uppercase d-flex name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 16px;"><strong>akali</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: Mago<br>Dificultad: Moderada<br>Linea: mid y top</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="items/akali.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3d24a1482453088a/5db05fa8df78486c826dcce8/RiotX_ChampionList_anivia.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 100%), var(--danger);border-style: none;"></header>
+                                <div class="d-flex justify-content-center align-items-center content-imagia" style="height: 41px;background: rgba(0,0,0,0);">
+                                    <h3 class="text-uppercase d-flex name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 16px;"><strong>anivia</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: Mago<br>Dificultad: Alta<br>Linea: Mid</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="items/anivia.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt28c708665427aef6/5db05fa89481396d6bdd01a6/RiotX_ChampionList_annie.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 100%), var(--danger);border-style: none;"></header>
+                                <div class="d-flex justify-content-center align-items-center content-imagia" style="height: 41px;background: rgba(0,0,0,0);">
+                                    <h3 class="text-uppercase d-flex name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 16px;"><strong>annie</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: Mago<br>Dificultad: Moderada<br>Linea: Mid</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="items/annie.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5dd3569fc67d6664/5db05fa8bd24496c390ae4d8/RiotX_ChampionList_aurelionsol.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <div class="d-flex justify-content-center align-items-center content-imagia" style="height: 41px;background: rgba(0,0,0,0);">
+                                    <h3 class="text-uppercase d-flex name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 16px;"><strong>aurel</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: Mago<br>Dificultad: Moderada<br>Linea: Mid</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0e3f847946232167/5db05fa889fb926b491ed7ff/RiotX_ChampionList_azir.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <div class="d-flex justify-content-center align-items-center content-imagia" style="height: 41px;background: rgba(0,0,0,0);">
+                                    <h3 class="text-uppercase d-flex name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 16px;"><strong>azir</strong></h3>
+                                </div>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: Mago<br>Dificultad: Alta<br>Linea: Mid</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte189be8189da97ea/5db05fb1bd24496c390ae4de/RiotX_ChampionList_cassiopeia.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>cassio</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: Maga<br>Dificultad: Moderada<br>Linea: MId</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltdd918c4d0a86347a/5db05fb1df78486c826dccee/RiotX_ChampionList_corki.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>corki</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: Tirador<br>Dificultad: Moderada<br>Linea: Mid</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt56570083d2a5e20e/5db05fbc823d426762825fdf/RiotX_ChampionList_diana.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>diana</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: Mago<br>Dificultad: Moderada<br>Linea: Mid</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf22ba7e6328e4376/5db05fbd242f426df132f963/RiotX_ChampionList_ekko.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>ekko</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: Mago<br>Dificultad: Moderada<br>Linea: Mid</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6000fa69e03c25c0/5db05fbc56458c6b3fc17513/RiotX_ChampionList_fizz.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>FIZZ</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: Moderada<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5890d1ab5c8be01f/5db05fc6823d426762825fe5/RiotX_ChampionList_galio.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>GALIO</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: TANQUE<br>Dificultad: Moderada<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd30d85446d154070/5db05fc57d28b76cfe4397ef/RiotX_ChampionList_heimerdinger.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>HEIMER</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: Moderada<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt69b8fad9d1e78514/5db05fd7df78486c826dcd0c/RiotX_ChampionList_karthus.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>KARTHUS</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: Moderada<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb73e3edb5937676a/5db05fd7823d426762825feb/RiotX_ChampionList_katarina.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>KATARINA</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: ALTA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt20773f2f67e00a74/5db05fd7bd24496c390ae4ea/RiotX_ChampionList_kassadin.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>KASSADIN</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: Moderada<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4aaf881bb90b509f/5db05fde6e8b0c6d038c5cae/RiotX_ChampionList_leblanc.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>LEBLANC</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: MODERADA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt08f869e897566c5b/5db05fdf7d28b76cfe439801/RiotX_ChampionList_lissandra.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>LISSAN</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: MODERADA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb94b4161d8022c45/5db05fdfe9d7526ab429e53c/RiotX_ChampionList_lux.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>LUX</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: APOYO<br>Dificultad: MODERADA<br>Linea: SUPP</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd58a3a2bf5035834/5db05fde0b39e86c2f83dc1f/RiotX_ChampionList_malzahar.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>MALZA</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: MODERADO<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="go:bloqueo">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3318fc0e8103706d/5db05ff02140ec675d68f4a7/RiotX_ChampionList_orianna.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>ORIANNA</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: MODERADO<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta6148d8dca105d6b/5db05ff1e9effa6ba5295fa7/RiotX_ChampionList_qiyana.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>QIYANA</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: ASESINO<br>Dificultad: MODERADO<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8af977ce4fa7804b/5db05ffa2dc72966da746714/RiotX_ChampionList_ryze.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>RYZE</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: MODERADO<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf8ea29aa48fc5e35/5db0600cadc8656c7d24e808/RiotX_ChampionList_sylas.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>SYLAS</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: MODERADA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd9308eedab3a6fa5/5db0600c3a326d6df6c0e7bf/RiotX_ChampionList_syndra.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>SYNDRA</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: ALTA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt20a737f99ebcd027/5db0600c89fb926b491ed829/RiotX_ChampionList_talon.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>TALON</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: ASESINO<br>Dificultad: MODERADO<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltaebcdb8b21d440a7/5db0600ce9effa6ba5295fb3/RiotX_ChampionList_twistedfate.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>TWISTED F</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: ALTA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltda2b568b0c3e5847/5db06014e9effa6ba5295fb9/RiotX_ChampionList_veigar.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>VEIGAR</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: MODERADO<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt825d0c333f6e74ae/5db060142140ec675d68f4bb/RiotX_ChampionList_velkoz.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>VELKOZ</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: ALTA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6e54b3de49b7bbf3/5db06015df78486c826dcd1e/RiotX_ChampionList_viktor.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>VIKTOR</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: ALTA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt39ab5027f6fa1b81/5db0601589fb926b491ed82f/RiotX_ChampionList_vladimir.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>VLADIMIR</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: MODERADA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbda694c8890e94e5/5db0601ce9effa6ba5295fbf/RiotX_ChampionList_xeratth.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>XERATH</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: ALTA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3a319fc884dc6880/5db0601c242f426df132f985/RiotX_ChampionList_yasuo.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>YASUO</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: LUCHADOR<br>Dificultad: ALTA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://1.bp.blogspot.com/-4R92R-PoQ_s/YMEtwpaAgoI/AAAAAAAAAAs/QDzRz8slt1Unob_dLuvcdt1whWaDbuPLACLcBGAsYHQ/s320/ImgC.007.jpeg"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>YONE</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: ASESINO<br>Dificultad: ALTA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt402d6da485218720/5db0601de9effa6ba5295fc5/RiotX_ChampionList_zed.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>ZED</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: ASESINO<br>Dificultad: MODERADA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0f8c12d54d8ecd28/5db0602289fb926b491ed835/RiotX_ChampionList_ziggs.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>ZIGGS</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: MODERADA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd18587f31803441d/5db060226e8b0c6d038c5cc6/RiotX_ChampionList_zoe.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>ZOE</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: MODERADA<br>Linea: MID</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-4" data-aos="fade-up" style="height: 160px;">
+                    <div class="card-container-imagia" style="height: 150px;">
+                        <div class="card-imagia">
+                            <div class="front-imagia" style="height: 148px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background: rgb(0,0,0);border-bottom-left-radius: 6px;">
+                                <div class="cover-imagia" style="height: 99px;border-style: none;"><img class="img-fluid" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt9bc3497cdd04f6d5/5db060229481396d6bdd01c4/RiotX_ChampionList_zyra.jpg?quality=90&amp;width=250"></div>
+                                <header style="height: 10px;background: linear-gradient(140deg, black, var(--purple) 99%), var(--danger);border-style: none;"></header>
+                                <h3 class="text-uppercase d-flex justify-content-center align-items-center name-imagia" style="color: rgb(255,255,255);font-size: 13px;height: 40px;"><strong>ZYRA</strong></h3>
+                            </div>
+                            <div class="back-imagia" style="height: 149px;">
+                                <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center content-imagia content-back-imagia" style="height: 107px;">
+                                    <p class="d-flex justify-content-center align-items-center justify-content-sm-start align-items-sm-center text-center" style="color: rgb(0,0,0);font-size: 11px;margin: 0px;margin-bottom: 0px;margin-top: 16px;margin-right: 0px;height: 89px;width: 100.8125px;">Rol: MAGO<br>Dificultad: MODERADA<br>Linea: SUPP</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center footer-imagia" style="border-style: none;background: #000000;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;height: 33px;">
+                                    <div class="social-imagia text-center"><a class="btn btn-primary btn-sm" role="button" style="background: rgba(78,115,223,0);color: rgb(255,255,255);border-style: none;" href="../inicio/bloqueo.html">Ver +</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr style="height: 28px;">
+    <nav class="navbar navbar-light navbar-expand fixed-bottom navigation-clean-button" style="height: 48px;color: #ffffff;background: #000000;">
+        <div class="container-fluid"><a class="navbar-brand" href="go:estados" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fas fa-plus-circle tada animated infinite" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="http://action_share" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fab fa-slideshare" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="http://action_notifications" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fas fa-exclamation-circle" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="go:comentario" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fab fa-facebook-messenger" style="width: auto;height: auto;"></i></a>
+            <div class="dropup no-arrow"><a aria-expanded="false" data-toggle="dropdown" href="#" style="font-size: 20px;"><i class="fas fa-bars text-gray-400" data-bss-hover-animate="swing"></i></a>
+                <div class="dropdown-menu shadow dropdown-menu-right animated--fade-in" style="margin: 21px;padding: 6px 0px;height: auto;width: auto;text-align: right;transform: translate(26px);">
+                    <p class="text-right dropdown-header" style="text-align: right;">Menu</p><a class="dropdown-item" href="http://action_profile" style="font-size: 16px;text-align: right;">Mi Perfil&nbsp;&nbsp;<i class="fas fa-user-cog pulse animated infinite"></i></a><a class="dropdown-item" href="go:admin" style="font-size: 16px;text-align: right;">ADMIN&nbsp;&nbsp;<i class="fas fa-comment-dots pulse animated infinite"></i></a>
+                    <div class="dropdown-divider"></div><a class="dropdown-item" href="http://action_offices" style="font-size: 16px;text-align: right;">Escribir al Programador&nbsp;&nbsp;<i class="far fa-envelope pulse animated infinite"></i></a>
+                    <div class="dropdown-divider"></div><a class="dropdown-item" href="go:toxicos" style="font-size: 16px;text-align: right;">Reportar Toxico&nbsp;&nbsp;<i class="fas fa-book-dead pulse animated infinite"></i></a>
+                </div>
+            </div><button class="navbar-toggler" data-toggle="collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        </div>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/smart-forms.min.js?h=c1c8b08f8e093bbf2ff10464a2cce6e7"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="../../assets/js/script.min.js?h=c8a2f72270fe90406927340776bad2ad"></script>
+</body>
+
+</html>
