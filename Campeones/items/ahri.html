@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
     <link rel="stylesheet" href="../../assets/fonts/fontawesome5-overrides.min.css?h=c1c8b08f8e093bbf2ff10464a2cce6e7">
-    <link rel="stylesheet" href="../../assets/css/styles.min.css?h=6a36070102ebb5c33f446e3c03cad2e2">
+    <link rel="stylesheet" href="../../assets/css/styles.min.css?h=8a129e7083b3903475b3742317114610">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -44,46 +44,213 @@
 <body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
 </head>
 
-<body style="font-size: 16px;font-family: 'Friz Quadrata Std';">
-    <div>
-        <nav class="navbar navbar-light navbar-expand fixed-top navigation-clean-button" style="height: 48px;color: #ffffff;background: #000000;">
-            <div class="container-fluid"><a class="navbar-brand" href="go:campeones" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="material-icons" style="width: auto;height: auto;">arrow_back</i></a><a class="navbar-brand pulse animated infinite" href="#" style="color: rgb(255,255,255);"><em>ARHI</em></a>
-                <div class="dropdown no-arrow"><a class="dropdown-toggle" aria-expanded="false" data-toggle="dropdown" href="#"><i class="material-icons text-gray-400" style="color: rgb(255,255,255);border-style: none;transform-style: preserve-3d;">folder_special</i></a>
+<body style="font-family: 'Friz Quadrata Std';">
+    <div style="font-family: 'Friz Quadrata Std';">
+        <nav class="navbar navbar-light navbar-expand fixed-top d-flex justify-content-center align-items-center navigation-clean-button" style="height: 48px;color: #ffffff;background: #000000;">
+            <div class="container-fluid"><img class="img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/Logo/LogoAnimate.gif" style="width: 38px;"><a class="navbar-brand d-flex justify-content-center align-items-center" href="#" style="color: rgb(255,255,255);transform: translate(0px) scale(1.10);transform-style: preserve-3d;filter: blur(0px) grayscale(0%) hue-rotate(0deg);padding-bottom: 0px;padding-top: 5px;font-size: 26px;">WrClan</a>
+                <div class="dropdown no-arrow"><a class="dropdown-toggle" aria-expanded="false" data-toggle="dropdown" href="#"><i class="fas fa-sliders-h text-gray-400" style="color: rgb(255,255,255);border-style: none;transform-style: preserve-3d;"></i></a>
                     <div class="dropdown-menu shadow dropdown-menu-right animated--fade-in">
-                        <p class="text-right dropdown-header">submenu</p><a class="dropdown-item text-right d-flex justify-content-end align-items-center" href="go:premium"><strong>CONTENIDO PREMIUM&nbsp;&nbsp;</strong><i class="material-icons tada animated infinite" style="color: rgb(210,176,0);">local_activity</i>&nbsp;</a><a class="dropdown-item text-right d-flex justify-content-end align-items-center" href="go:donaciones"><strong>DONACIONES&nbsp;&nbsp;</strong><i class="material-icons swing animated infinite" style="font-size: 20px;color: rgb(0,210,34);">attach_money</i>&nbsp;</a>
-                        <div class="dropdown-divider"></div><a class="dropdown-item text-right d-flex justify-content-end align-items-center" href="http://action_exit"><strong>SALIR DEL APP&nbsp;&nbsp;</strong><i class="material-icons pulse animated" style="font-size: 20px;color: rgb(0,0,0);">exit_to_app</i>&nbsp;</a>
+                        <p class="text-right dropdown-header" style="color: rgb(0,0,0);">submenu</p><a class="dropdown-item d-flex justify-content-end" href="http://action_profile" style="font-size: 16px;text-align: right;">Mi Perfil&nbsp;<i class="fas fa-user-cog pulse animated infinite" style="color: var(--pink);"></i></a><a class="dropdown-item d-flex justify-content-end" href="http://action_offices" style="font-size: 16px;text-align: right;">Escribir al Programador&nbsp;<i class="far fa-envelope pulse animated infinite" style="color: var(--blue);"></i></a><a class="dropdown-item d-flex justify-content-end" href="go:admin" style="font-size: 16px;text-align: right;">Admin&nbsp;&nbsp;<i class="fas fa-comment-dots pulse animated infinite" style="color: var(--purple);"></i></a><a class="dropdown-item d-flex justify-content-end" href="go:toxicos" style="font-size: 16px;text-align: right;" target="_top">Reportar Toxico&nbsp;&nbsp;<i class="fas fa-book-dead pulse animated infinite" style="color: rgb(0,222,22);"></i></a><a class="dropdown-item d-flex justify-content-end" href="http://action_notifications" style="font-size: 16px;text-align: right;">Notificaciones&nbsp;&nbsp;<i class="fas fa-exclamation-circle pulse animated infinite" style="color: rgb(0,56,255);"></i></a><a class="dropdown-item d-flex justify-content-end" href="go:premium" style="font-size: 16px;text-align: right;">Contenido Premium&nbsp;<i class="fas fa-gem pulse animated infinite" style="color: rgb(255,229,0);"></i></a><a class="dropdown-item d-flex justify-content-end" href="go:donaciones" style="font-size: 16px;text-align: right;">Donaciones&nbsp;<i class="fas fa-hand-holding-heart pulse animated infinite" style="color: rgb(255,0,0);"></i></a><a class="dropdown-item d-flex justify-content-end" href="go:stikers" style="font-size: 16px;text-align: right;">Stikers&nbsp;<i class="far fa-smile-beam pulse animated infinite" style="color: rgb(255,0,0);"></i></a><a class="dropdown-item text-right d-flex justify-content-end align-items-center" style="color: rgb(0,0,0);"></a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item d-flex justify-content-end align-items-center" href="http://action_exit" style="color: rgb(0,0,0);">SALIR DEL APP&nbsp;&nbsp;<i class="material-icons pulse animated" style="font-size: 20px;color: rgb(0,0,0);">exit_to_app</i>&nbsp;</a>
                     </div>
-                </div><button class="navbar-toggler" data-toggle="collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                </div>
             </div>
         </nav>
     </div>
     <section class="d-flex align-items-center highlight-clean" style="height: 100vh;background: url(&quot;https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg&quot;) center / cover space;">
-        <div class="container" style="height: 100vh;background: rgba(0,0,0,0.6);">
-            <hr style="height: 150px;">
+        <div class="container" style="height: 100vh;background: rgba(0,0,0,0.5);">
+            <hr style="height: 43px;">
+            <h2 class="text-center" style="color: rgb(255,255,255);font-size: 22px;height: 8px;">La mujer zorro de nueve colas</h2>
+            <h2 class="text-center" style="color: rgb(255,255,255);"><strong><em>AHRI</em></strong><br></h2>
             <div class="intro">
-                <h2 class="text-center" style="color: rgb(255,255,255);"><strong><em>LA VASTAYA DE NUEVE COLAS</em></strong><br></h2>
-                <p class="text-justify" style="color: rgb(255,255,255);">Ahri, conectada de forma innata con el poder latente de Runaterra, es una vastaya que puede moldear la magia en orbes de energía pura. Se divierte jugueteando con su presa y manipulando sus emociones, antes de devorar su esencia vital. A pesar de su naturaleza predadora, Ahri conserva cierta empatía porque recibe destellos de los recuerdos de cada alma que consume.<br></p>
-                <p class="text-uppercase text-left" style="color: rgb(255,255,255);"><strong>Rol</strong>: mago<br><strong>Dificultad</strong>: Moderada<br><strong>Region</strong>: jonia</p>
+                <p class="text-justify" style="color: rgb(255,255,255);font-size: 11px;">Ahri es una vastaya conectada de forma innata al poder latente de Runaterra, y es capaz de convertir la magia en orbes de energía pura. Le gusta jugar con su presa, manipulando sus emociones antes de devorar su esencia de vida. A pesar de su naturaleza depredadora, Ahri posee cierto sentido de la empatía, ya que recibe recuerdos de cada alma que consume.<br></p>
+            </div>
+            <div>
+                <div class="row align-items-center no-gutters">
+                    <div class="col mr-2">
+                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span style="color: rgb(255,255,255);">ATAQUE</span></div>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-auto">
+                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"></div>
+                            </div>
+                            <div class="col">
+                                <div class="progress progress-sm">
+                                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%;"><span class="sr-only">35%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters">
+                    <div class="col mr-2">
+                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span style="color: rgb(255,255,255);">defensa</span></div>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-auto">
+                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"></div>
+                            </div>
+                            <div class="col">
+                                <div class="progress progress-sm">
+                                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"><span class="sr-only">45%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters">
+                    <div class="col mr-2">
+                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span style="color: rgb(255,255,255);">magia</span></div>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-auto">
+                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"></div>
+                            </div>
+                            <div class="col">
+                                <div class="progress progress-sm">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"><span class="sr-only">85%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters">
+                    <div class="col mr-2">
+                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span style="color: rgb(255,255,255);">dificultad</span></div>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-auto">
+                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"></div>
+                            </div>
+                            <div class="col">
+                                <div class="progress progress-sm">
+                                    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-center">
+                <div>
+                    <p class="m-0" style="color: rgb(255,255,255);"><strong>Fuerte contra:</strong></p>
+                    <div class="row d-flex align-items-center no-gutters">
+                        <div class="col-auto"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/blob/master/contenido/IcoCampion/yone.png?raw=true" style="width: 45px;"></div>
+                        <div class="col-auto"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/blob/master/contenido/IcoCampion/sylas.png?raw=true" style="width: 45px;"></div>
+                        <div class="col-auto" style="width: 45px;"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/blob/master/contenido/IcoCampion/zoe.png?raw=true" style="width: 45px;"></div>
+                        <div class="col-auto" style="width: 45px;"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/blob/master/contenido/IcoCampion/akali.png?raw=true" style="width: 45px;"></div>
+                        <div class="col-auto" style="width: 45px;"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/blob/master/contenido/IcoCampion/lucian.png?raw=true" style="width: 45px;"></div>
+                        <div class="col-auto" style="width: 45px;"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/blob/master/contenido/IcoCampion/anivia.png?raw=true" style="width: 45px;"></div>
+                    </div>
+                </div>
+                <div>
+                    <p class="m-0" style="color: rgb(255,255,255);"><strong>Debil contra</strong></p>
+                    <div class="row d-flex justify-content-start align-items-center no-gutters">
+                        <div class="col-auto"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/blob/master/contenido/IcoCampion/katarina.png?raw=true" style="width: 45px;"></div>
+                        <div class="col-auto" style="width: 45px;"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/blob/master/contenido/IcoCampion/veigar.png?raw=true" style="width: 45px;"></div>
+                        <div class="col-auto" style="width: 45px;"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/blob/master/contenido/IcoCampion/lux.png?raw=true" style="width: 45px;"></div>
+                        <div class="col-auto" style="width: 45px;"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/blob/master/contenido/IcoCampion/viktor.png?raw=true" style="width: 45px;"></div>
+                        <div class="col-auto" style="width: 45px;"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/blob/master/contenido/IcoCampion/xerath.png?raw=true" style="width: 45px;"></div>
+                        <div class="col-auto" style="width: 45px;"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/blob/master/contenido/IcoCampion/brand.png?raw=true" style="width: 45px;"></div>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+            <hr>
+            <div class="buttons">
+                <div class="d-flex justify-content-center"><a class="btn btn-primary btn-block btn-sm" role="button" data-toggle="modal" href="#myModal" style="background: rgb(0,0,0);color: rgb(255,255,255);">Habilidades pc</a>
+                    <div class="modal fade" role="dialog" tabindex="-1" id="myModal" style="color: rgb(0,0,0);">
+                        <div class="modal-dialog modal-xl" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body" style="background: #000000;"><img class="img-fluid" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg">
+                                    <div class="card shadow border-left-primary py-2" style="padding-bottom: 0px;height: 142px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <div class="row align-items-center no-gutters">
+                                                <div class="col mr-2">
+                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0103/ability_0103_P1.webm" target="_top"><strong>ROBO DE ESENCIAS</strong></a><br></span><span>pasiva</span></div>
+                                                    <div class="text-dark font-weight-bold h5 mb-0">
+                                                        <p style="font-size: 11px;text-align: justify;color: rgb(0,0,0);">Cuando Ahri golpea a 9 enemigos con sus habilidades, su siguiente habilidad también la cura por cada enemigo alcanzado.<br></p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/passive/Ahri_SoulEater2.png"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="card shadow border-left-primary py-2" style="padding-bottom: 0px;height: 142px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <div class="row align-items-center no-gutters">
+                                                <div class="col mr-2">
+                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0103/ability_0103_Q1.webm" target="_top"><strong>ORBE DEL ENGAÑO</strong></a><br></span><span>primera habilidad</span></div>
+                                                    <div class="text-dark font-weight-bold h5 mb-0">
+                                                        <p style="font-size: 11px;text-align: justify;color: rgb(0,0,0);">Ahri lanza y recupera su orbe, lo que inflige daño mágico al lanzarlo y daño verdadero al recuperarlo.<br></p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/spell/AhriOrbofDeception.png"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="card shadow border-left-primary py-2" style="padding-bottom: 0px;height: 142px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <div class="row align-items-center no-gutters">
+                                                <div class="col mr-2">
+                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0103/ability_0103_W1.webm" target="_top"><strong>FUEGO ZORRUNO</strong></a><br></span><span>segunda habilidad</span></div>
+                                                    <div class="text-dark font-weight-bold h5 mb-0">
+                                                        <p style="font-size: 11px;text-align: justify;color: rgb(0,0,0);">Ahri obtiene una breve mejora de velocidad de movimiento y lanza tres fuegos zorrunos que fijan y atacan a los enemigos cercanos.<br></p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/spell/AhriFoxFire.png"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="card shadow border-left-primary py-2" style="padding-bottom: 0px;height: 142px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <div class="row align-items-center no-gutters">
+                                                <div class="col mr-2">
+                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0103/ability_0103_E1.webm" target="_top"><strong>HECHIZAR</strong></a><br></span><span>tercera habilidad</span></div>
+                                                    <div class="text-dark font-weight-bold h5 mb-0">
+                                                        <p style="font-size: 11px;text-align: justify;color: rgb(0,0,0);">Ahri lanza un beso que daña y hechiza al enemigo al que alcance primero, con lo que cancela instantáneamente todas sus habilidades de movimiento y hace que avance hacia ella de forma inofensiva. Ahri inflige daño adicional al objetivo de forma temporal.<br></p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/spell/AhriSeduce.png"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="card shadow border-left-primary py-2" style="padding-bottom: 0px;height: 142px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <div class="row align-items-center no-gutters">
+                                                <div class="col mr-2">
+                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0103/ability_0103_R1.webm" target="_top"><strong>IMPULSO ESPIRITUAL</strong></a><br></span><span>definitiva</span></div>
+                                                    <div class="text-dark font-weight-bold h5 mb-0">
+                                                        <p style="font-size: 11px;text-align: justify;color: rgb(0,0,0);">Ahri se desliza hacia delante y libera rayos de esencia que infligen daño a los enemigos cercanos. Impulso espiritual puede usarse hasta tres veces antes de entrar en enfriamiento.<br></p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/spell/AhriTumble.png"></div>
+                                            </div>
+                                        </div>
+                                    </div><button class="btn btn-light" data-dismiss="modal" type="button" style="font-size: 10px;color: rgb(255,255,255);border-style: none;background: rgba(221,221,221,0);">cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="buttons">
-                <div><a class="btn btn-primary btn-block btn-sm" role="button" data-toggle="modal" href="#myModal">habilidades wildrift</a>
-                    <div class="modal fade" role="dialog" tabindex="-1" id="myModal" style="color: rgb(0,0,0);border-style: none;background: #000000;">
+                <div class="d-flex justify-content-center"><a class="btn btn-primary btn-block btn-sm" role="button" data-toggle="modal" href="#myModal1" style="background: rgb(0,0,0);color: rgb(255,255,255);">Habilidades wildrift</a>
+                    <div class="modal fade" role="dialog" tabindex="-1" id="myModal1" style="color: rgb(0,0,0);">
                         <div class="modal-dialog modal-xl" role="document">
                             <div class="modal-content">
-                                <div class="modal-body" style="background: #000000;">
-                                    <div style="position: relative;overflow: hidden;padding-top: 56.25%;"><video style="width: 100%;height: 100%;position: absolute;top: 0;left: 0;" autoplay="" loop="">
-                                            <source src="https://assets.contentstack.io/v3/assets/blt370612131b6e0756/blt7f20887167829522/5f8dd6ff2792080f7721e6d0/ahri_turntable_1_20.mp4" type="video/ogg">
-                                        </video></div>
+                                <div class="modal-body" style="background: #000000;"><img class="img-fluid" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg">
                                     <div class="card shadow border-left-primary py-2" style="padding-bottom: 0px;height: 142px;">
                                         <div class="card-body d-flex justify-content-center align-items-center">
                                             <div class="row align-items-center no-gutters">
                                                 <div class="col mr-2">
-                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><strong>LADRONA DE ESENCIAS</strong><br></span><span>pasiva</span></div>
+                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><a href="https://assets.contentstack.io/v3/assets/blt370612131b6e0756/blte2a7a97498054ede/5f76a07902e6b80ebf8ffee3/Ahri_Ability_Passive_1.mp4" target="_top"><em>LADRONA DE ESENCIAS</em></a><br></span><span>pasiva</span></div>
                                                     <div class="text-dark font-weight-bold h5 mb-0">
-                                                        <p style="font-size: 10px;text-align: justify;color: rgb(0,0,0);">Ahri obtiene una acumulación de Ladrona de Esencias al impactar a un objetivo con un hechizo. Cuando tiene suficientes acumulaciones, el siguiente hechizo que impacte a un enemigo también la curará.<br></p>
+                                                        <p style="font-size: 11px;text-align: justify;color: rgb(0,0,0);">Ahri obtiene una acumulación de Ladrona de Esencias al impactar a un objetivo con un hechizo. Cuando tiene suficientes acumulaciones, el siguiente hechizo que impacte a un enemigo también la curará.<br></p>
                                                     </div>
                                                 </div>
-                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.11.1/img/passive/Ahri_SoulEater2.png"></div>
+                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/passive/Ahri_SoulEater2.png"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -92,12 +259,12 @@
                                         <div class="card-body d-flex justify-content-center align-items-center">
                                             <div class="row align-items-center no-gutters">
                                                 <div class="col mr-2">
-                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><strong>ORBE DEL ENGAÑO</strong><br></span><span>primera habilidad</span></div>
+                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><a href="https://assets.contentstack.io/v3/assets/blt370612131b6e0756/bltab2f370583feac50/5f76a0789d46c20f091755df/Ahri_Ability_1_1.mp4" target="_top"><strong>ORBE DEL ENGAÑO</strong></a><br></span><span>primera habilidad</span></div>
                                                     <div class="text-dark font-weight-bold h5 mb-0">
-                                                        <p style="font-size: 10px;text-align: justify;color: rgb(0,0,0);">Ahri lanza y recupera su orbe, lo que inflige daño mágico de ida y daño verdadero de vuelta.<br></p>
+                                                        <p style="font-size: 11px;text-align: justify;color: rgb(0,0,0);">Ahri lanza y recupera su orbe, lo que inflige daño mágico de ida y daño verdadero de vuelta.<br></p>
                                                     </div>
                                                 </div>
-                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.11.1/img/spell/AhriOrbofDeception.png"></div>
+                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/spell/AhriOrbofDeception.png"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -106,12 +273,12 @@
                                         <div class="card-body d-flex justify-content-center align-items-center">
                                             <div class="row align-items-center no-gutters">
                                                 <div class="col mr-2">
-                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><strong>FUEGO ZORRUNO</strong><br></span><span>segunda habilidad</span></div>
+                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><a href="https://assets.contentstack.io/v3/assets/blt370612131b6e0756/blt3e1690136413376c/5f76a0778db9ea0f149eab54/Ahri_Ability_2a_1.mp4" target="_top"><strong>FUEGO ZORRUNO</strong></a><br></span><span>segunda habilidad</span></div>
                                                     <div class="text-dark font-weight-bold h5 mb-0">
-                                                        <p style="font-size: 10px;text-align: justify;color: rgb(0,0,0);">Ahri obtiene un breve aumento de velocidad de movimiento y lanza tres fuegos zorrunos que siguen a enemigos cercanos para atacarlos.<br></p>
+                                                        <p style="font-size: 11px;text-align: justify;color: rgb(0,0,0);">Ahri obtiene un breve aumento de velocidad de movimiento y lanza tres fuegos zorrunos que siguen a enemigos cercanos para atacarlos.<br></p>
                                                     </div>
                                                 </div>
-                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.11.1/img/spell/AhriFoxFire.png"></div>
+                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/spell/AhriFoxFire.png"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -120,12 +287,12 @@
                                         <div class="card-body d-flex justify-content-center align-items-center">
                                             <div class="row align-items-center no-gutters">
                                                 <div class="col mr-2">
-                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><strong>ENCANTO</strong><br></span><span>tercera habilidad</span></div>
+                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><a href="https://assets.contentstack.io/v3/assets/blt370612131b6e0756/blt58cc7fafed7aace4/5f76a0793dea860e7be3c492/Ahri_Ability_3_1.mp4" target="_top"><strong>HECHIZAR</strong></a><br></span><span>tercera habilidad</span></div>
                                                     <div class="text-dark font-weight-bold h5 mb-0">
-                                                        <p style="font-size: 10px;text-align: justify;color: rgb(0,0,0);">Ahri lanza un beso que inflige daño y deja encantado al enemigo, lo que detiene de inmediato las habilidades de movimiento del objetivo y hace que avance hacia ella de manera inofensiva. El objetivo recibe daño aumentado de Ahri temporalmente.<br></p>
+                                                        <p style="font-size: 11px;text-align: justify;color: rgb(0,0,0);">Ahri lanza un beso que daña y hechiza al enemigo al que alcance primero, con lo que cancela instantáneamente todas sus habilidades de movimiento y hace que avance hacia ella de forma inofensiva. Ahri inflige daño adicional al objetivo de forma temporal.<br></p>
                                                     </div>
                                                 </div>
-                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.11.1/img/spell/AhriSeduce.png"></div>
+                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/spell/AhriSeduce.png"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -134,91 +301,12 @@
                                         <div class="card-body d-flex justify-content-center align-items-center">
                                             <div class="row align-items-center no-gutters">
                                                 <div class="col mr-2">
-                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><strong>IMPULSO ESPIRITUAL</strong><br></span><span>definitiva</span></div>
+                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><a href="https://assets.contentstack.io/v3/assets/blt370612131b6e0756/blta10be7855eef9bd5/5f76a079879de80eb41af9e0/Ahri_Ability_Ult_1.mp4" target="_top"><strong>IMPULSO ESPIRITUAL</strong></a><br></span><span>definitiva</span></div>
                                                     <div class="text-dark font-weight-bold h5 mb-0">
                                                         <p style="font-size: 11px;text-align: justify;color: rgb(0,0,0);">Ahri se desplaza hacia adelante y dispara rayos de esencia, lo que inflige daño a los enemigos cercanos. Puedes lanzar Impulso Espiritual hasta tres veces antes de que entre en enfriamiento.<br></p>
                                                     </div>
                                                 </div>
-                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.11.1/img/spell/AhriTumble.png"></div>
-                                            </div>
-                                        </div>
-                                    </div><button class="btn btn-light" data-dismiss="modal" type="button" style="font-size: 10px;color: rgb(255,255,255);border-style: none;background: rgba(221,221,221,0);">cerrar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div><a class="btn btn-primary btn-block btn-sm" role="button" data-toggle="modal" href="#myModal1">habilidades pc</a>
-                    <div class="modal fade" role="dialog" tabindex="-1" id="myModal1" style="color: rgb(0,0,0);border-style: none;background: #000000;">
-                        <div class="modal-dialog modal-xl" role="document">
-                            <div class="modal-content">
-                                <div class="modal-body" style="background: #000000;">
-                                    <div class="card shadow border-left-primary py-2" style="padding-bottom: 0px;height: 142px;">
-                                        <div class="card-body d-flex justify-content-center align-items-center">
-                                            <div class="row align-items-center no-gutters">
-                                                <div class="col mr-2">
-                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><strong>LADRONA DE ESENCIAS</strong><br></span><span>pasiva</span></div>
-                                                    <div class="text-dark font-weight-bold h5 mb-0">
-                                                        <p style="font-size: 10px;text-align: justify;color: rgb(0,0,0);">Cuando Ahri alcanza a 9 enemigos con sus habilidades, su siguiente habilidad también la curará por cada enemigo alcanzado.<br></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.11.1/img/passive/Ahri_SoulEater2.png"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="card shadow border-left-primary py-2" style="padding-bottom: 0px;height: 142px;">
-                                        <div class="card-body d-flex justify-content-center align-items-center">
-                                            <div class="row align-items-center no-gutters">
-                                                <div class="col mr-2">
-                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><strong>ORBE DEL ENGAÑO</strong><br></span><span>primera habilidad</span></div>
-                                                    <div class="text-dark font-weight-bold h5 mb-0">
-                                                        <p style="font-size: 10px;text-align: justify;color: rgb(0,0,0);">Ahri lanza y recupera su orbe, lo que inflige daño mágico de ida y daño verdadero de vuelta.<br></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.11.1/img/spell/AhriOrbofDeception.png"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="card shadow border-left-primary py-2" style="padding-bottom: 0px;height: 142px;">
-                                        <div class="card-body d-flex justify-content-center align-items-center">
-                                            <div class="row align-items-center no-gutters">
-                                                <div class="col mr-2">
-                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><strong>FUEGO ZORRUNO</strong><br></span><span>segunda habilidad</span></div>
-                                                    <div class="text-dark font-weight-bold h5 mb-0">
-                                                        <p style="font-size: 10px;text-align: justify;color: rgb(0,0,0);">Ahri obtiene un breve aumento de velocidad de movimiento y lanza tres fuegos zorrunos que siguen a enemigos cercanos para atacarlos.<br></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.11.1/img/spell/AhriFoxFire.png"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="card shadow border-left-primary py-2" style="padding-bottom: 0px;height: 142px;">
-                                        <div class="card-body d-flex justify-content-center align-items-center">
-                                            <div class="row align-items-center no-gutters">
-                                                <div class="col mr-2">
-                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><strong>ENCANTO</strong><br></span><span>tercera habilidad</span></div>
-                                                    <div class="text-dark font-weight-bold h5 mb-0">
-                                                        <p style="font-size: 10px;text-align: justify;color: rgb(0,0,0);">Ahri lanza un beso que inflige daño y deja encantado al enemigo, lo que detiene de inmediato las habilidades de movimiento del objetivo y hace que avance hacia ella de manera inofensiva. El objetivo recibe daño aumentado de Ahri temporalmente.<br></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.11.1/img/spell/AhriSeduce.png"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="card shadow border-left-primary py-2" style="padding-bottom: 0px;height: 142px;">
-                                        <div class="card-body d-flex justify-content-center align-items-center">
-                                            <div class="row align-items-center no-gutters">
-                                                <div class="col mr-2">
-                                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span><strong>IMPULSO ESPIRITUAL</strong><br></span><span>definitiva</span></div>
-                                                    <div class="text-dark font-weight-bold h5 mb-0">
-                                                        <p style="font-size: 11px;text-align: justify;color: rgb(0,0,0);">Ahri se desplaza hacia adelante y dispara rayos de esencia, lo que inflige daño a los enemigos cercanos. Puedes lanzar Impulso Espiritual hasta tres veces antes de que entre en enfriamiento.<br></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.11.1/img/spell/AhriTumble.png"></div>
+                                                <div class="col-auto"><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/spell/AhriTumble.png"></div>
                                             </div>
                                         </div>
                                     </div><button class="btn btn-light" data-dismiss="modal" type="button" style="font-size: 10px;color: rgb(255,255,255);border-style: none;background: rgba(221,221,221,0);">cerrar</button>
@@ -228,20 +316,14 @@
                     </div>
                 </div>
             </div>
+            <p style="color: rgb(255,255,255);font-size: 11px;text-align: center;">Si tocas el nombre de la habilidad saldrá su animación.</p><a class="btn btn-primary btn-block" role="button" style="background: rgb(0,0,0);border-style: none;" href="go:foro">Builds / Items Counters</a>
         </div>
-    </section><audio class="sr-only" autoplay="">
+    </section><audio class="sr-only invisible" controls="" preload="auto" autoplay="">
         <source src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/audio/Ahri_-_Seleccion_LATAM.ogg" type="audio/ogg">
     </audio>
+    <hr>
     <nav class="navbar navbar-light navbar-expand fixed-bottom navigation-clean-button" style="height: 48px;color: #ffffff;background: #000000;">
-        <div class="container-fluid"><a class="navbar-brand" href="go:estados" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fas fa-plus-circle tada animated infinite" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="http://action_share" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fab fa-slideshare" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="http://action_notifications" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fas fa-exclamation-circle" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="go:comentario" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fab fa-facebook-messenger" style="width: auto;height: auto;"></i></a>
-            <div class="dropup no-arrow"><a aria-expanded="false" data-toggle="dropdown" href="#" style="font-size: 20px;"><i class="fas fa-bars text-gray-400" data-bss-hover-animate="swing"></i></a>
-                <div class="dropdown-menu shadow dropdown-menu-right animated--fade-in" style="margin: 21px;padding: 6px 0px;height: auto;width: auto;text-align: right;transform: translate(26px);">
-                    <p class="text-right dropdown-header" style="text-align: right;">Menu</p><a class="dropdown-item" href="http://action_profile" style="font-size: 16px;text-align: right;">Mi Perfil&nbsp;&nbsp;<i class="fas fa-user-cog pulse animated infinite"></i></a><a class="dropdown-item" href="go:admin" style="font-size: 16px;text-align: right;">ADMIN&nbsp;&nbsp;<i class="fas fa-comment-dots pulse animated infinite"></i></a>
-                    <div class="dropdown-divider"></div><a class="dropdown-item" href="http://action_offices" style="font-size: 16px;text-align: right;">Escribir al Programador&nbsp;&nbsp;<i class="far fa-envelope pulse animated infinite"></i></a>
-                    <div class="dropdown-divider"></div><a class="dropdown-item" href="go:toxicos" style="font-size: 16px;text-align: right;">Reportar Toxico&nbsp;&nbsp;<i class="fas fa-book-dead pulse animated infinite"></i></a>
-                </div>
-            </div><button class="navbar-toggler" data-toggle="collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-        </div>
+        <div class="container-fluid"><a class="navbar-brand" href="http://action_search" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fas fa-search tada animated infinite" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="go:duo" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fab fa-facebook-messenger" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="go:menu" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fas fa-home jello animated infinite" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="http://action_share" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fab fa-slideshare" style="width: auto;height: auto;"></i></a><a class="navbar-brand" href="go:estados" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="fas fa-rss-square tada animated infinite" style="width: auto;height: auto;"></i></a><button class="navbar-toggler" data-toggle="collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
     </nav>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
