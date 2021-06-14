@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>WildriftCLAN</title>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css?h=730d4c318b57dd911c8f323943efc3d0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows+Into+Light">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="../../assets/fonts/fontawesome5-overrides.min.css?h=c1c8b08f8e093bbf2ff10464a2cce6e7">
+    <link rel="stylesheet" href="../../assets/css/styles.min.css?h=8a129e7083b3903475b3742317114610">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCW_J_QSRPr1j3LMvCqdYd7Sb8WbC17qgM",
+    authDomain: "wrclanapp.firebaseapp.com",
+    projectId: "wrclanapp",
+    storageBucket: "wrclanapp.appspot.com",
+    messagingSenderId: "363552424815",
+    appId: "1:363552424815:web:5d6fdbe02411627f2c5e9a",
+    measurementId: "G-LDMNGZ5M9E"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
+</head>
+
+<body style="font-family: 'Friz Quadrata Std';">
+    <div style="font-family: 'Friz Quadrata Std';">
+        <nav class="navbar navbar-light navbar-expand fixed-top d-flex justify-content-center align-items-center navigation-clean-button" style="height: 48px;color: #ffffff;background: #000000;">
+            <div class="container-fluid"><img class="img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/Logo/LogoAnimate.gif" style="width: 38px;"><a class="navbar-brand d-flex justify-content-center align-items-center" href="#" style="color: rgb(255,255,255);transform: translate(0px) scale(1.10);transform-style: preserve-3d;filter: blur(0px) grayscale(0%) hue-rotate(0deg);padding-bottom: 0px;padding-top: 5px;font-size: 26px;">WrClan</a>
+                <div class="dropdown no-arrow"><a class="dropdown-toggle" aria-expanded="false" data-toggle="dropdown" href="#"><i class="material-icons text-gray-400" style="color: rgb(255,255,255);border-style: none;transform-style: preserve-3d;">dehaze</i></a>
+                    <div class="dropdown-menu shadow dropdown-menu-right animated--fade-in">
+                        <p class="text-right dropdown-header" style="color: rgb(0,0,0);">submenu</p>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-uppercase d-flex justify-content-end" href="http://action_profile" style="font-size: 16px;text-align: right;color: var(--pink);">Mi Perfil&nbsp;<i class="material-icons pulse animated infinite" style="color: var(--pink);">account_circle</i></a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-uppercase d-flex justify-content-end" href="http://action_offices" style="font-size: 16px;text-align: right;color: var(--blue);">Escribir al Programador&nbsp;<i class="material-icons pulse animated infinite" style="color: var(--blue);">email</i></a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-uppercase d-flex justify-content-end" href="go:admin" style="font-size: 16px;text-align: right;color: var(--purple);">Admin&nbsp;&nbsp;<i class="material-icons pulse animated infinite" style="color: var(--purple);">headset_mic</i></a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-uppercase d-flex justify-content-end" href="go:toxicos" style="font-size: 16px;text-align: right;color: rgb(44,222,22);" target="_top">Reportar Toxico&nbsp;&nbsp;<i class="material-icons pulse animated infinite" style="color: rgb(0,222,22);">perm_device_information</i></a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-uppercase d-flex justify-content-end" href="http://action_notifications" style="font-size: 16px;text-align: right;color: rgb(0,56,255);">Notificaciones&nbsp;&nbsp;<i class="material-icons pulse animated infinite" style="color: rgb(0,56,255);">notifications_active</i></a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-uppercase d-flex justify-content-end" href="go:premium" style="font-size: 16px;text-align: right;color: rgb(255,229,2);">Contenido Premium&nbsp;<i class="material-icons pulse animated infinite" style="color: rgb(255,229,0);">whatshot</i></a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-uppercase d-flex justify-content-end" href="go:donaciones" style="font-size: 16px;text-align: right;color: rgb(254,30,0);">Donaciones&nbsp;<i class="material-icons pulse animated infinite" style="color: rgb(255,0,0);">attach_money</i></a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-uppercase d-flex justify-content-end" href="go:stikers" style="font-size: 16px;text-align: right;color: rgb(254,30,0);">Stikers&nbsp;<i class="material-icons pulse animated infinite" style="color: rgb(255,0,0);">cake</i></a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item d-flex justify-content-end align-items-center" href="http://action_exit" style="color: rgb(0,0,0);font-size: 16px;">SALIR DEL APP&nbsp;&nbsp;<i class="material-icons pulse animated" style="font-size: 20px;color: rgb(0,0,0);">exit_to_app</i>&nbsp;</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="d-flex align-items-center highlight-clean" style="height: 100vh;background: url(&quot;https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg&quot;) center / cover space;">
+        <div class="container" style="height: 100vh;background: rgba(0,0,0,0.5);">
+            <hr style="height: 43px;">
+            <h2 class="text-uppercase text-center" style="color: rgb(255,255,255);font-size: 22px;height: 8px;">el arma de los fieles</h2>
+            <h2 class="text-uppercase text-center" style="color: rgb(255,255,255);margin: -6px;"><em>aphelios</em></h2>
+            <div class="buttons">
+                <div class="d-flex justify-content-center"><a class="btn btn-primary btn-block btn-sm" role="button" data-toggle="modal" href="#myModal2" style="background: rgb(0,0,0);color: rgb(255,255,255);">historia</a>
+                    <div class="modal fade" role="dialog" tabindex="-1" id="myModal2" style="color: rgb(0,0,0);">
+                        <div class="modal-dialog modal-xl" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body" style="background: #000000;"><img class="img-fluid" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg">
+                                    <hr>
+                                    <p style="text-align: justify;color: rgb(255,255,255);">Aphelios emerge de entre las sombras de la noche con armas en mano y asesina a los enemigos de su fe en un silencio inquietante, hablando a tiro limpio únicamente a través de la certitud de su puntería. Un veneno que le impide hablar se encarga de impulsarlo mientras su hermana Alune lo guía desde un lejano templo, enviándole todo un arsenal de armas de piedra lunar. Mientras la luna brille, Aphelios nunca estará solo.<br></p><button class="btn btn-light" data-dismiss="modal" type="button" style="font-size: 10px;color: rgb(255,255,255);border-style: none;background: rgba(221,221,221,0);">cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="row align-items-center no-gutters">
+                    <div class="col mr-2">
+                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span style="color: rgb(255,255,255);">ATAQUE</span></div>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-auto">
+                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"></div>
+                            </div>
+                            <div class="col">
+                                <div class="progress progress-sm">
+                                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"><span class="sr-only">20%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters">
+                    <div class="col mr-2">
+                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span style="color: rgb(255,255,255);">defensa</span></div>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-auto">
+                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"></div>
+                            </div>
+                            <div class="col">
+                                <div class="progress progress-sm">
+                                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%;"><span class="sr-only">35%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters">
+                    <div class="col mr-2">
+                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span style="color: rgb(255,255,255);">magia</span></div>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-auto">
+                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"></div>
+                            </div>
+                            <div class="col">
+                                <div class="progress progress-sm">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters">
+                    <div class="col mr-2">
+                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span style="color: rgb(255,255,255);">dificultad</span></div>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-auto">
+                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"></div>
+                            </div>
+                            <div class="col">
+                                <div class="progress progress-sm">
+                                    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"><span class="sr-only">65%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="invisible">
+            <div class="d-flex justify-content-center">
+                <div>
+                    <p class="d-flex justify-content-center m-0" style="color: rgb(255,255,255);"><strong>Fuerte contra:</strong></p>
+                    <div class="row d-flex justify-content-center align-items-center no-gutters">
+                        <div class="col-auto"><a href="go:kalista"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/IcoCampion/kalista.png?raw=true" style="width: 45px;" loading="lazy"></a></div>
+                        <div class="col-auto"><a href="go:morde"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/IcoCampion/mordekaiser.png?raw=true" style="width: 45px;" loading="lazy"></a></div>
+                        <div class="col-auto" style="width: 45px;"><a href="go:zed"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/IcoCampion/zed.png?raw=true" style="width: 45px;" loading="lazy"></a></div>
+                        <div class="col-auto" style="width: 45px;"><a href="go:darius"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/IcoCampion/darius.png?raw=true" style="width: 45px;" loading="lazy"></a></div>
+                        <div class="col-auto" style="width: 45px;"><a href="go:gangplank"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/IcoCampion/gangplank.png?raw=true" style="width: 45px;" loading="lazy"></a></div>
+                        <div class="col-auto" style="width: 45px;"><a href="go:tahm"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/IcoCampion/tahmkench.png?raw=true" style="width: 45px;" loading="lazy"></a></div>
+                    </div>
+                </div>
+                <div>
+                    <p class="d-flex justify-content-center m-0" style="color: rgb(255,255,255);"><strong>Debil contra</strong></p>
+                    <div class="row d-flex justify-content-center align-items-center no-gutters">
+                        <div class="col-auto"><a href="go:jinx"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/IcoCampion/jinx.png?raw=true" style="width: 45px;" loading="lazy"></a></div>
+                        <div class="col-auto" style="width: 45px;"><a href="go:samira"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/IcoCampion/samira.png?raw=true" style="width: 45px;" loading="lazy"></a></div>
+                        <div class="col-auto" style="width: 45px;"><a href="go:kaisa"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/IcoCampion/kaisa.png?raw=true" style="width: 45px;" loading="lazy"></a></div>
+                        <div class="col-auto" style="width: 45px;"><a href="go:miss"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/IcoCampion/missfortune.png?raw=true" style="width: 45px;" loading="lazy"></a></div>
+                        <div class="col-auto" style="width: 45px;"><a href="go:ashe"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/IcoCampion/ashe.png?raw=true" style="width: 45px;" loading="lazy"></a></div>
+                        <div class="col-auto" style="width: 45px;"><a href="go:jhin"><img class="rounded img-fluid" src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/IcoCampion/jhin.png?raw=true" style="width: 45px;" loading="lazy"></a></div>
+                    </div>
+                </div>
+            </div>
+            <hr class="invisible">
+            <div>
+                <div class="buttons">
+                    <div class="d-flex justify-content-center"><a class="btn btn-primary btn-block btn-sm" role="button" data-toggle="modal" href="#myModal" style="background: rgb(0,0,0);color: rgb(255,255,255);">Habilidades pc</a>
+                        <div class="modal fade" role="dialog" tabindex="-1" id="myModal" style="color: rgb(0,0,0);background: #000000;">
+                            <div class="modal-dialog modal-xl" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body" style="background: #000000;"><img class="img-fluid" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg">
+                                        <hr>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col mr-2">
+                                                <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span style="color: var(--red);"><strong>EL ASESINO Y LA VIDENTE</strong><br></span><span style="color: var(--purple);">pasiva</span></div>
+                                                <div class="text-dark font-weight-bold h5 mb-0">
+                                                    <p style="font-size: 11px;text-align: justify;color: rgb(255,255,255);">Aphelios empuña cinco armas de los Lunari creadas por su hermana Alune. Tiene acceso a dos a la vez, una como arma principal y otra como secundaria. Cada arma tiene un ataque básico y una habilidad únicos. Los ataques y las habilidades consumen la munición del arma. Cuando se queda sin munición, Aphelios descarta el arma y Alune invoca la siguiente de las 5.<br></p>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto"><span class="text-uppercase flash animated infinite" style="color: var(--red);background: rgba(255,0,0,0);font-size: 15px;"><a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.webm"><strong>video</strong></a><br></span><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/passive/ApheliosP.png"></div>
+                                        </div>
+                                        <hr>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col mr-2">
+                                                <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span style="color: var(--red);"><strong>HABILIDADES DE LAS ARMAS</strong><br></span><span style="color: var(--purple);">primera habilidad</span></div>
+                                                <div class="text-dark font-weight-bold h5 mb-0">
+                                                    <p style="font-size: 11px;text-align: justify;color: rgb(255,255,255);">Aphelios cuenta con 5 habilidades activas diferentes, en función del arma principal que tenga equipada: Calibrum (rifle): Disparo de largo alcance que marca a su objetivo para realizar un ataque consecutivo también a largo alcance. Severum (revólver guadaña): Corre mientras ataca a los enemigos cercanos con ambas armas. Gravitum (cañón): Inmoviliza a todos los enemigos ralentizados por esta arma. Infernum (lanzallamas): Impacta contra los enemigos en un arco y ataca con el arma secundaria. Crescendum (chakram): Despliega un centinela que dispara con el arma secundaria.<br></p>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto"><span class="text-uppercase flash animated infinite" style="color: var(--red);background: rgba(255,0,0,0);font-size: 15px;"><a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"><strong>video</strong></a><br></span><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/spell/ApheliosQ_ClientTooltipWrapper.png"></div>
+                                        </div>
+                                        <hr>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col mr-2">
+                                                <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span style="color: var(--red);"><strong>FASE</strong><br></span><span style="color: var(--purple);">segunda habilidad</span></div>
+                                                <div class="text-dark font-weight-bold h5 mb-0">
+                                                    <p style="font-size: 11px;text-align: justify;color: rgb(255,255,255);">Aphelios cambia su arma principal por el arma secundaria, lo que reemplaza sus ataques básicos y su habilidad activa.<br></p>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto"><span class="text-uppercase flash animated infinite" style="color: var(--red);background: rgba(255,0,0,0);font-size: 15px;"><a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_W1.webm"><strong>video</strong></a><br></span><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/spell/ApheliosW.png"></div>
+                                        </div>
+                                        <hr>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col mr-2">
+                                                <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span style="color: var(--red);"><strong>SISTEMA DE COLA DE ARMAS</strong><br></span><span style="color: var(--purple);">tercera habilidad</span></div>
+                                                <div class="text-dark font-weight-bold h5 mb-0">
+                                                    <p style="font-size: 11px;text-align: justify;color: rgb(255,255,255);">Aphelios no tiene tercera habilidad. Esta ranura muestra la siguiente arma que Alune le dará. Al comienzo, el orden de las armas es fijo, pero puede cambiar durante la partida: cuando un arma se queda sin munición, pasa a ser la última.<br></p>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto"><span class="text-uppercase flash animated infinite" style="color: var(--red);background: rgba(255,0,0,0);font-size: 15px;"><a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_E1.webm"><strong>video</strong></a><br></span><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/spell/ApheliosE_ClientTooltipWrapper.png"></div>
+                                        </div>
+                                        <hr>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col mr-2">
+                                                <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="text-align: left;"><span style="color: var(--red);"><strong>VIGILIA LUNAR</strong><br></span><span style="color: var(--purple);">definitiva</span></div>
+                                                <div class="text-dark font-weight-bold h5 mb-0">
+                                                    <p style="font-size: 11px;text-align: justify;color: rgb(255,255,255);">Dispara un rayo de luz lunar concentrado que explota al golpear a campeones enemigos. Aplica el efecto único del arma principal de Aphelios.<br></p>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto"><span class="text-uppercase flash animated infinite" style="color: var(--red);background: rgba(255,0,0,0);font-size: 15px;"><a href="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_R1.webm"><strong>video</strong></a><br></span><img class="img-thumbnail img-fluid" src="https://ddragon.leagueoflegends.com/cdn/11.12.1/img/spell/ApheliosR.png"></div>
+                                        </div><button class="btn btn-light" data-dismiss="modal" type="button" style="font-size: 10px;color: rgb(255,255,255);border-style: none;background: rgba(221,221,221,0);">cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="color: rgb(255,255,255);font-size: 11px;text-align: center;">Presiona en (video) para ver la animación de la habilidad.</p><a class="btn btn-primary btn-block" role="button" style="background: rgb(0,0,0);border-style: none;" href="go:foro">Builds / Items Counters</a>
+            </div>
+        </div>
+    </section><audio class="sr-only invisible" controls="" preload="auto" autoplay="">
+        <source src="https://github.com/tusoporteapp/WildRiftCLAN/raw/master/contenido/audio/Aphelios_Selecci%C3%B3n_es_MX.ogg" type="audio/ogg">
+    </audio>
+    <nav class="navbar navbar-light navbar-expand fixed-bottom navigation-clean-button" style="height: 45px;color: #ffffff;background: #000000;">
+        <div class="container-fluid"><a class="navbar-brand d-flex align-items-center" href="http://action_search" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="material-icons tada animated infinite" style="width: auto;height: auto;">search</i></a><a class="navbar-brand d-flex align-items-center" href="go:duo" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="material-icons" style="width: auto;height: auto;">chat</i></a><a class="navbar-brand d-flex align-items-center" href="go:menu" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="material-icons jello animated infinite" style="width: auto;height: auto;">home</i></a><a class="navbar-brand d-flex align-items-center" href="http://action_share" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="material-icons" style="width: auto;height: auto;">share</i></a><a class="navbar-brand d-flex align-items-center" href="go:estados" style="color: rgb(255,255,255);width: auto;height: auto;">&nbsp;<i class="material-icons tada animated infinite" style="width: auto;height: auto;">add_to_photos</i></a><button class="navbar-toggler" data-toggle="collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/smart-forms.min.js?h=c1c8b08f8e093bbf2ff10464a2cce6e7"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="../../assets/js/script.min.js?h=c8a2f72270fe90406927340776bad2ad"></script>
+</body>
+
+</html>
